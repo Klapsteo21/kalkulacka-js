@@ -1,1 +1,1 @@
-# kalkulacka-js
+# kalkulacka-jquery
