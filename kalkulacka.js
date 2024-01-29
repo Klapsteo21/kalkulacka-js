@@ -3,7 +3,6 @@ var obrazovka = document.getElementById("obrazovka");
 function pridathodnotu(value) {
   obrazovka.value += value;
 
-  // Přidání statistiky pomocí AJAX
   fetch('/api/statistics', {
     method: 'POST',
     headers: {
@@ -16,6 +15,7 @@ function pridathodnotu(value) {
     .catch(error => console.error('Chyba:', error));
 }
 
+  // kalkulacka funkčnost
   var obrazovka = document.getElementById("obrazovka");
 
   function pridathodnotu(value) {
